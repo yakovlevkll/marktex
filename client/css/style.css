@@ -1,0 +1,82 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #262624;
+    color: #fff;
+    width: 100vw;
+    height: 95vh;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    flex-direction: column;
+    font-family: Arial;
+}
+
+/* width */
+::-webkit-scrollbar {
+    width: 0.4rem;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    background: #333;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: #555;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: #666;
+}
+
+table,
+th,
+td {
+    border: solid 1px #333;
+    border-collapse: collapse;
+}
+
+table {
+    width: 100%;
+}
+
+ul {
+    list-style-type: none;
+}
+
+main {
+    margin: 0;
+    padding: 0;
+    width: 100vw;
+    height: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: flex-start;
+    flex-direction: row;
+}
+
+#source {
+    width: 45%;
+    height: 98%;
+
+    padding: 2vh 2vh;
+
+    background-color: #1c1c1b;
+    color: #eee;
+    border: 1px solid #444;
+}
+
+#result {
+    width: 45%;
+    height: 98%;
+    padding: 2vh 4vh;
+
+    border: 1px solid #111;
+    background-color: #ddd;
+    color: #111;
+
+    overflow: scroll;
+}
